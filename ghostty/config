@@ -1,3 +1,6 @@
 background-opacity = 0.85
 background-blur = true
+
+font-family = FiraCode Nerd Font Mono Reg
+
 macos-titlebar-proxy-icon = hidden
