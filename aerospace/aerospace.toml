@@ -157,6 +157,7 @@ on-mode-changed = []
     alt-shift-semicolon = 'mode service'
 
     alt-f = 'layout floating tiling'
+    alt-q = 'close'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
