@@ -6,6 +6,10 @@
 
 ./ghostty -> ~/.config/ghostty
 
+## nvim
+
+./nvim -> ~/.config/nvim
+
 ## zsh
 
 .zshrc -> ~/.zshrc
