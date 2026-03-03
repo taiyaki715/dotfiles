@@ -10,6 +10,10 @@
 
 ./nvim -> ~/.config/nvim
 
+## starship
+
+starship.toml -> ~/.config/starship.toml
+
 ## zsh
 
 .zshrc -> ~/.zshrc
