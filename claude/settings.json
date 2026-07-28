@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "model": "claude-opus-5",
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true
+  },
+  "language": "日本語",
+  "effortLevel": "high",
+  "autoUpdatesChannel": "stable",
+  "tui": "fullscreen",
+  "skipDangerousModePermissionPrompt": true,
+  "skipWorkflowUsageWarning": true,
+  "autoCompactEnabled": true,
+  "skipAutoPermissionPrompt": true,
+  "hooks": {
+    "UserPromptExpansion": [
+      {
+        "matcher": "code-review",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/code-review-pr-context.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
