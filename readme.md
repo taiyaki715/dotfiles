@@ -1,7 +1,3 @@
-## aerospace
-
-./aerospace -> ~/.config/aerospace
-
 ## claude
 
 Claude Code のユーザー設定。
@@ -25,10 +21,6 @@ Claude Code のユーザー設定。
 ## ghostty
 
 ./ghostty -> ~/.config/ghostty
-
-## nvim
-
-./nvim -> ~/.config/nvim
 
 ## starship
 
