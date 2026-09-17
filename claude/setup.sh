@@ -16,6 +16,7 @@ dst_dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
 targets=(
   settings.json
   statusline-command.sh
+  CLAUDE.md
   hooks
   skills
 )
